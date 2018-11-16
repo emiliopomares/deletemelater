@@ -6,9 +6,11 @@
   "dependencies": {
     "express": "^4.16.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
   "scripts": {
-    "test": "echo \"Nothing to test, so...\" && exit 0",
+    "test": "jest",
     "start": "node index.js"
   },
   "repository": {

@@ -1,9 +1,10 @@
 const express = require('express')
+const thingy = require('./thingy')
 var app = express()
 
 app.get("/", function(req, res) {
 
-	res.status(200).json({version:"1.0"})
+	res.status(200).json(thingy.doThatShit())
 
 })
 
